@@ -1,0 +1,135 @@
+$white-color: #ffffff;
+$fifty-pixels: 50px;
+
+.white-text {
+    color: $white-color;
+}
+
+.movie-page-container {
+    font-size: 17px;
+
+    .movie-img-container {
+        float: left;
+        margin-right: $fifty-pixels;
+    }
+
+    .movie-text-container {
+        margin-left: $fifty-pixels;
+    }
+
+    .overview-post-title {
+        margin: 30px 0 20px 0;
+    }
+}
+
+.movie-header-container {
+    width: 90%;
+    margin: auto;
+}
+
+.color-background {
+    padding: 25px 0px;
+    width: 100%;
+    background-image: radial-gradient(circle at 20% 50%, rgba(9.80%, 9.80%, 43.92%, 0.98) 0%, rgba(9.80%, 9.80%, 43.92%, 0.88) 100%);
+}
+
+.genres-list-title {
+    margin: 30px 0px 20px 0px;
+}
+
+.genre-list-items {
+    display: inline-block;
+}
+
+.favourite-video {
+    margin-top: 2 * $fifty-pixels;
+}
+
+.genre-list-items li, .section-title span, .favourite-video h3 {
+    cursor: pointer;
+}
+
+.margin-top-section {
+    margin-top: 120px;
+}
+
+ .cast-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 3 * $fifty-pixels;
+    margin-left: 2 * $fifty-pixels;
+}
+
+.actor-item-list {
+    list-style-type: none;
+
+    li {
+        margin-bottom: $fifty-pixels;
+
+        :first-child {
+            margin-top: 30px;
+        }
+    }
+}
+
+.videos-content-wrapper {
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    iframe {
+        width: 533px;
+        height: 6 * $fifty-pixels;
+        border: 0;
+    }
+}
+
+.videos-container {
+    .favourite-movies-container {
+        margin-bottom: 3 * $fifty-pixels;
+    }
+
+     h3 {
+        margin-left: 2 * $fifty-pixels;
+        margin-bottom: $fifty-pixels;
+    }
+}
+
+.column {
+    margin-top: $fifty-pixels;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.margin-auto-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-auto, .column {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circular-progress-bar {
+    width: $fifty-pixels;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .movie-page-container .movie-text-container {
+        margin-left: 0px;
+    }
+
+    .movie-page-container .movie-img-container {
+        margin-bottom: 20px;
+    }
+}

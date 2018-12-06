@@ -1,0 +1,2 @@
+export const COOKIE_ISLOGGEDIN = 'COOKIE_ISLOGGEDIN';
+export const COOKIE_TOKEN = "COOKIE_TOKEN";

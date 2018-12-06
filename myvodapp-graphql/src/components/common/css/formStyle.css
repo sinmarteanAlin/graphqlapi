@@ -1,0 +1,10 @@
+.bootstrap-form {
+    width: 80%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.bootstrap-form-error  {
+    color: darkred;
+    font-size: 12px;
+}
